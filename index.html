@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>bitsignal</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <button onclick="connect()">Connect wallet</button>
+  <button onclick="approve()">Approve</button>
+  <button onclick="enterBet()">Enter Bet</button>
+
+<p>
+1) Connect your wallet (assumes metamask or other types of injected wallets) <br>
+2) Hit approve to approve the contract to transfer your USDC to escrow contract, you are the only one who can transfer approved funds <br>
+3) Hit Enter Bet to transfer 1M USDC to the contract and start the process <br>
+</p>
+
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
